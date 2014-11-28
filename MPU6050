@@ -6,11 +6,11 @@ DigitalOut myled(LED1);
 
 char whoAmI ;
 #define MPU6050							 0x68<<1  // Device address when ADO = 0
-#define RA_WHO_AM_I					0x75
+#define RA_WHO_AM_I         0x75
 #define RA_CONFIG           0x1A
 #define RA_USER_CTRL        0x6A
-#define RA_PWR_ADDR   			0x6B
-#define RA_SMPLRT_DIV				0x19
+#define RA_PWR_ADDR   	    0x6B
+#define RA_SMPLRT_DIV	    0x19
 #define RA_GYRO_CONFIG      0x1B
 #define RA_ACCEL_CONFIG     0x1C
 #define RA_INT_PIN_CFG      0x37
